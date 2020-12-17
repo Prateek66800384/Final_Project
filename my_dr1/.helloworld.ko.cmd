@@ -1,0 +1,1 @@
+cmd_/home/prateek/linux_driver//helloworld.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/prateek/linux_driver//helloworld.ko /home/prateek/linux_driver//helloworld.o /home/prateek/linux_driver//helloworld.mod.o ;  true
